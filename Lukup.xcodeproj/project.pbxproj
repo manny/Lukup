@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD48E9AA17ACD75C00F72404 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD48E9A917ACD75C00F72404 /* UIKit.framework */; };
+		DD48E9AC17ACD75C00F72404 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD48E9AB17ACD75C00F72404 /* Foundation.framework */; };
+		DD48E9AE17ACD75C00F72404 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD48E9AD17ACD75C00F72404 /* CoreGraphics.framework */; };
+		DD48E9B417ACD75C00F72404 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD48E9B217ACD75C00F72404 /* InfoPlist.strings */; };
+		DD48E9B617ACD75C00F72404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD48E9B517ACD75C00F72404 /* main.m */; };
+		DD48E9BA17ACD75C00F72404 /* LukupAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD48E9B917ACD75C00F72404 /* LukupAppDelegate.m */; };
+		DD48E9BC17ACD75C00F72404 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD48E9BB17ACD75C00F72404 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD48E9A617ACD75C00F72404 /* Lukup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lukup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD48E9A917ACD75C00F72404 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD48E9AB17ACD75C00F72404 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD48E9AD17ACD75C00F72404 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD48E9B117ACD75C00F72404 /* Lukup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lukup-Info.plist"; sourceTree = "<group>"; };
+		DD48E9B317ACD75C00F72404 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD48E9B517ACD75C00F72404 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD48E9B717ACD75C00F72404 /* Lukup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lukup-Prefix.pch"; sourceTree = "<group>"; };
+		DD48E9B817ACD75C00F72404 /* LukupAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LukupAppDelegate.h; sourceTree = "<group>"; };
+		DD48E9B917ACD75C00F72404 /* LukupAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LukupAppDelegate.m; sourceTree = "<group>"; };
+		DD48E9BB17ACD75C00F72404 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD48E9A317ACD75C00F72404 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD48E9AA17ACD75C00F72404 /* UIKit.framework in Frameworks */,
+				DD48E9AC17ACD75C00F72404 /* Foundation.framework in Frameworks */,
+				DD48E9AE17ACD75C00F72404 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD48E99D17ACD75C00F72404 = {
+			isa = PBXGroup;
+			children = (
+				DD48E9AF17ACD75C00F72404 /* Lukup */,
+				DD48E9A817ACD75C00F72404 /* Frameworks */,
+				DD48E9A717ACD75C00F72404 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD48E9A717ACD75C00F72404 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD48E9A617ACD75C00F72404 /* Lukup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD48E9A817ACD75C00F72404 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD48E9A917ACD75C00F72404 /* UIKit.framework */,
+				DD48E9AB17ACD75C00F72404 /* Foundation.framework */,
+				DD48E9AD17ACD75C00F72404 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD48E9AF17ACD75C00F72404 /* Lukup */ = {
+			isa = PBXGroup;
+			children = (
+				DD48E9B817ACD75C00F72404 /* LukupAppDelegate.h */,
+				DD48E9B917ACD75C00F72404 /* LukupAppDelegate.m */,
+				DD48E9BB17ACD75C00F72404 /* MainWindow.xib */,
+				DD48E9B017ACD75C00F72404 /* Supporting Files */,
+			);
+			path = Lukup;
+			sourceTree = "<group>";
+		};
+		DD48E9B017ACD75C00F72404 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD48E9B117ACD75C00F72404 /* Lukup-Info.plist */,
+				DD48E9B217ACD75C00F72404 /* InfoPlist.strings */,
+				DD48E9B517ACD75C00F72404 /* main.m */,
+				DD48E9B717ACD75C00F72404 /* Lukup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD48E9A517ACD75C00F72404 /* Lukup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD48E9BF17ACD75C00F72404 /* Build configuration list for PBXNativeTarget "Lukup" */;
+			buildPhases = (
+				DD48E9A217ACD75C00F72404 /* Sources */,
+				DD48E9A317ACD75C00F72404 /* Frameworks */,
+				DD48E9A417ACD75C00F72404 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lukup;
+			productName = Lukup;
+			productReference = DD48E9A617ACD75C00F72404 /* Lukup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD48E99E17ACD75C00F72404 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = CODE2040;
+			};
+			buildConfigurationList = DD48E9A117ACD75C00F72404 /* Build configuration list for PBXProject "Lukup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD48E99D17ACD75C00F72404;
+			productRefGroup = DD48E9A717ACD75C00F72404 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD48E9A517ACD75C00F72404 /* Lukup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD48E9A417ACD75C00F72404 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD48E9B417ACD75C00F72404 /* InfoPlist.strings in Resources */,
+				DD48E9BC17ACD75C00F72404 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD48E9A217ACD75C00F72404 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD48E9B617ACD75C00F72404 /* main.m in Sources */,
+				DD48E9BA17ACD75C00F72404 /* LukupAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD48E9B217ACD75C00F72404 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD48E9B317ACD75C00F72404 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD48E9BD17ACD75C00F72404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD48E9BE17ACD75C00F72404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD48E9C017ACD75C00F72404 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lukup/Lukup-Prefix.pch";
+				INFOPLIST_FILE = "Lukup/Lukup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD48E9C117ACD75C00F72404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lukup/Lukup-Prefix.pch";
+				INFOPLIST_FILE = "Lukup/Lukup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD48E9A117ACD75C00F72404 /* Build configuration list for PBXProject "Lukup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD48E9BD17ACD75C00F72404 /* Debug */,
+				DD48E9BE17ACD75C00F72404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD48E9BF17ACD75C00F72404 /* Build configuration list for PBXNativeTarget "Lukup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD48E9C017ACD75C00F72404 /* Debug */,
+				DD48E9C117ACD75C00F72404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD48E99E17ACD75C00F72404 /* Project object */;
+}
